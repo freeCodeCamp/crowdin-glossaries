@@ -1,1 +1,51 @@
 Term:English,Description:English,Part:English,Term:Afrikaans,Description:Afrikaans,Term:Amharic,Description:Amharic,Term:Arabic,Description:Arabic,Term:Bengali,Description:Bengali,Term:Bengali (India),Description:Bengali (India),Term:Bulgarian,Description:Bulgarian,Term:Catalan,Description:Catalan,Term:Chinese Simplified,Description:Chinese Simplified,Term:Czech,Description:Czech,Term:Danish,Description:Danish,Term:Dutch,Description:Dutch,Term:Finnish,Description:Finnish,Term:French,Description:French,Term:German,Description:German,Term:Greek,Description:Greek,Term:Haitian Creole,Description:Haitian Creole,Term:Hausa,Description:Hausa,Term:Hebrew,Description:Hebrew,Term:Hindi,Description:Hindi,Term:Hungarian,Description:Hungarian,Term:Igbo,Description:Igbo,Term:Indoensian,Description:Indoensian,Term:Italian,Description:Italian,Term:Japanese,Description:Japanese,Term:Korean,Description:Korean,Term:Nepali,Description:Nepali,Term:Norwegian,Description:Norwegian,Term:Oromo,Description:Oromo,Term:Persian,Description:Persian,Term:Polish,Description:Polish,Term:Portuguese,Description:Portuguese,Term:Portuguese (Brazilian),Description:Portuguese (Brazilian),Term:Romanian,Description:Romanian,Term:Russian,Description:Russian,Term:Serbian (Cyrillic),Description:Serbian (Cyrillic),Term:Shona,Description:Shona,Term:Sinhala,Description:Sinhala,Term:Spanish (Modern),Description:Spanish (Modern),Term:Swahili,Description:Swahili,Term:Swedish,Description:Swedish,Term:Telugu,Description:Telugu,Term:Thai,Description:Thai,Term:Turkish,Description:Turkish,Term:Ukranian,Description:Ukranian,Term:Urdu (Pakistan),Description:Urdu (Pakistan),Term:Vietnamese,Description:Vietnamese,Term:Yoruba,Description:Yoruba,Term:Zulu,Description:Zulu
+Learning Platform,,NOUN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Plataforma de aprendizado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+user stories,,NOUN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,user stories,,,,,,,,,,,,,,,,,,histórias de usuário,,,,,,,,,,,,Historia de usuario,,,,,,,,,,,,Історія користувача,,,,,,,,,
+freeCodeCamp,It's us!,NOUN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,freeCodeCamp,,,,freeCodeCamp,,,,,,,,freeCodeCamp,,,,,,,,,,,,,,,,,,,,,
+pull-request,,NOUN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pull-requests,,,,,предложение на изменение/слияние/внесение в кодовую базу,,,,,,,solicitudes de extracción,,,,,,,,,,,,пул реквест,,,,,,,,,
+Staging,"a process used to assemble, test, and review a new solution before it is moved into production and the existing solution is decommissioned",PROPN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,fase de preparo,"um processo utilizado para montar, testar e revisar uma nova solução antes de esta ser transferida para a produção e de a solução existente ser desativada",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+build,"a build is the process of converting source code files into standalone software artifact(s) that can be run on a computer, or the result of doing so.",NOUN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,compilação,"no contexto do desenvolvimento de software, é uma versão ""compilada"" de um software ou parte dele que contém um conjunto de recursos que poderão integrar o produto final.",,,,"Сборка - это процесс преобразования файлов исходного кода в автономный программный артефакт(ы), который может быть запущен на компьютере, или результат этого процесса.",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+deploy,Software deployment is all of the activities that make a software system available for use.,VERB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,implantação,Implantação é a fase do ciclo de vida de um software que corresponde à passagem do software para a produção.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+frivolous,,ADJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,frívola,,,,,,,,,,,,,,,,,,,,,
+LGTM,Looks Good To Me,X,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,LGTM,Looks Good To Me,,,,,,,,,,,,,,,,,,,,
+kick,,VERB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expulsar,,,,,,,,,,,,,,,,,,,,,
+dangling images,Docker images consist of multiple layers. Dangling images are layers that have no relationship to any tagged images.,NOUN,,,,,,,,,,,,,,,虚悬镜像,Docker中未被使用的镜像,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GitHub issues,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Раздел ошибок на GitHub,,,,,,,Tema de GitHub,,,,,,,,,,,,,,,,,,,,,
+staff member,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,штатный сотрудник,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+triage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,smistamento,,,,,,,,,,,,,,,,,,,,,,,сортировка,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+label,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"метка, тег",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fork ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,форк [ответвление кода],,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Error,,NOUN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Galat,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+child,,NOUN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,дочерний элемент,,,,,,,,,,,,,,,,,,,,дочірній елемент,,,,,,,,,
+commit,,NOUN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"коммит, фиксация изменений",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Issue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"в зависимости от контекста: Проблема, задача, вопрос",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pull request,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"пуллреквест, запрос на слияние / на принятие изменений в ветку репозитория из форка или другой ветки.",,,,,,,,,,,,,,,,,,,пул реквест,"можна перекласти як ""пул реквест"", часто так перекладають
+
+ще варіант: ""Запит на Пул"" (https://git-scm.com/book/uk/v2/GitHub-Як-зробити-внесок-до-проекту)",,,,,,,,
+PR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pull Request (пуллреквест) - запрос на слияние,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Contributor,,NOUN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"участник, волонтер",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MailHog,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MailHog,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DevOps,,NOUN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,DevOps,"DevOps — методология активного взаимодействия специалистов по разработке со специалистами по информационно-технологическому обслуживанию и взаимная интеграция их рабочих процессов друг в друга для обеспечения качества продукта. Предназначена для эффективной организации создания и обновления программных продуктов и услуг. Основана на идее тесной взаимозависимости создания продукта и эксплуатации программного обеспечения, которая прививается команде как культура создания продукта.  //Википедия",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+camper,,NOUN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"участник [fCC], переводить как кэмпер - грубая калька и некорректно ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+curated,"A curator (from Latin: cura, meaning ""to take care"")[1] is a manager or overseer.
+https://en.wikipedia.org/wiki/Curator",ADJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sustentado,"""curado"" vem de ""curatela"". O termo provém do do latim 'curare', que se traduz por ""cuidar, zelar"". 
+https://pt.wikipedia.org/wiki/Curatela#Terminologia",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+staging area,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"индекс, подготовительная область [файлов для коммита], буфер",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+repository,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,сховище,,,,,,,,,
+Blast,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,хвиля,,,,,,,,,
+Manual,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,посібник,,,,,,,,,
+learning to code,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,обучении по программированию,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+contribute,,VERB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"внести вклад, участвовать, способствовать
+[Синонимы]:
+способствовать, содействовать /promote
+сотрудничать, участвовать /cooperate, participate
+вносить /bring
+помогать /help
+вкладывать /invest
+приводить /lead
+жертвовать /donate",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+curriculum,,NOUN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,currículo,,,,,,,,,,,,навчальна програма,"Можливі варіації (як от ""перелік завдань"", ""курс навчання"" і тд)",,,,,,,,
+Code of Conduct,,NOUN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,кодекс поведінки,,,,,,,,,
+stack,,NOUN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,стек,,,,,,,,,
+superBlock,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,súper bloque,,,,,,,,,,,,,,,,,,,,,
+Challenge,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,desafío,,,,,,,,,,,,,,,,,,,,,
