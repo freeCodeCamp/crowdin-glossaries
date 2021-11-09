@@ -1,6 +1,11 @@
+/* eslint-disable camelcase */
 import { GlossaryConfig } from "../interfaces/GlossaryConfig";
 
-/* eslint-disable camelcase */
+/**
+ * These ID values are obtained from the API, and should not need
+ * to be changed unless we either add a new glossary or delete and
+ * recreate an existing one.
+ */
 export const glossaryIds = {
   testing: 20,
   curriculum: 2,
