@@ -4,6 +4,7 @@ import { join } from "path";
 import { assert } from "chai";
 
 import { testingOpts } from "../src/configs/glossaryOpts";
+import { languageCodes } from "../src/configs/languageCodes";
 import { partsOfSpeechMap } from "../src/configs/partsOfSpeech";
 
 suite("testing.csv validation", () => {
@@ -21,29 +22,26 @@ suite("testing.csv validation", () => {
 
   test("file should start with English", () => {
     const [term, desc, part] = header.split(",");
-    assert.equal(term, "Term [en]", "First column is not the English term.");
+    assert.equal(term, "Term:English", "First column is not the English term.");
     assert.equal(
       desc,
-      "Description [en]",
+      "Description:English",
       "Second column is not the English description."
     );
     assert.equal(
       part,
-      "Part of Speech [en]",
-      "Third colum is not the English part of speech."
+      "Part:English",
+      "Third column is not the English part of speech."
     );
   });
 
   test("header row should match config", () => {
     const columns = header.split(",");
     for (const index in columns) {
-      const rawType = columns[index].split(/\s/);
-      console.log(rawType);
-      // hacky fallback here for the last one having a newline.
-      const rawLang = rawType.pop() || rawType.pop();
-      const lang = rawLang.replace(/\[|\]/g, "");
-      const type =
-        rawType.length > 1 ? "partOfSpeech" : rawType[0].toLowerCase();
+      const [rawType, rawLang] = columns[index].split(":");
+      const lang = languageCodes[rawLang.replace(/\r/g, "")];
+      const type = rawType === "Part" ? "partOfSpeech" : rawType.toLowerCase();
+      console.log({ lang, type, rawLang, rawType });
       assert.equal(
         testingOpts.scheme[`${type}_${lang}`],
         parseInt(index),
@@ -54,7 +52,7 @@ suite("testing.csv validation", () => {
 
   for (const line of entries) {
     const [term, , part] = line.split(",");
-    const lineNumber = entries.indexOf(line) + 1;
+    const lineNumber = entries.indexOf(line) + 2;
     test(`Line ${lineNumber} should have an English term`, () => {
       assert.isNotEmpty(term, "The term appears empty.");
     });
