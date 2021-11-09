@@ -1,0 +1,32 @@
+name: Upload Client Glossary
+on:
+  workflow_dispatch:
+
+jobs:
+  ci:
+    name: Upload Glossary
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - name: Checkout Source Files
+        uses: actions/checkout@v2
+
+      - name: Use Node.js v${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build Project
+        run: npm run build
+
+      - name: Run Upload
+        run: npm run start:client
+        env:
+          CROWDIN_API: ${{ secrets.CROWDIN_GLOSSARY_KEY }}
