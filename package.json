@@ -7,6 +7,9 @@
     "build": "tsc",
     "generate": "node ./prod/generateTemplate.js",
     "lint": "eslint src --max-warnings 0",
+    "start:client": "node -r dotenv/config ./prod/index.js client",
+    "start:docs": "node -r dotenv/config ./prod/index.js docs",
+    "start:curriculum": "node -r dotenv/config ./prod/index.js curriculum",
     "start:test": "node -r dotenv/config ./prod/index.js testing",
     "test": "ts-mocha -u tdd test/**/*.spec.ts --recursive --exit"
   },
