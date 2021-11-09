@@ -1,8 +1,10 @@
 import { clientOpts, glossaryIds, testingOpts } from "./configs/glossaryOpts";
 import { uploadGlossary } from "./uploadGlossary";
 import { logHandler } from "./utils/logHandler";
+import { validateEnv } from "./utils/validateEnv";
 
 (async () => {
+  validateEnv();
   const fileName = process.argv[2];
 
   switch (fileName) {
