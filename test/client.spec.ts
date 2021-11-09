@@ -7,9 +7,9 @@ import { testingOpts } from "../src/configs/glossaryOpts";
 import { languageCodes } from "../src/configs/languageCodes";
 import { partsOfSpeechMap } from "../src/configs/partsOfSpeech";
 
-suite("testing.csv validation", () => {
+suite("client.csv validation", () => {
   const data = readFileSync(
-    join(process.cwd(), "glossaries/testing.csv"),
+    join(process.cwd(), "glossaries/client.csv"),
     "utf-8"
   );
 
