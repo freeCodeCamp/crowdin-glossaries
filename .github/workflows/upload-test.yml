@@ -26,8 +26,7 @@ jobs:
       - name: Build Project
         run: npm run build
 
-      - name: Create env file
-        run: echo 'CROWDIN_API="${{ secrets.CROWDIN_GLOSSARY_KEY }}" > .env'
-
       - name: Run Upload
         run: npm run start:testing
+        env:
+          CROWDIN_API: ${{ secrets.CROWDIN_GLOSSARY_KEY }}
