@@ -41,4 +41,4 @@ Finally, you'd need to add a new test suite in `test` to cover your glossary, an
 
 ## Questions
 
-If you have any questions, feel free to reach out to @nhcarrigan in our [contributor chat room](https://chat.freecodecamp.org/channel/contributors).
+If you have any questions, feel free to reach out to @nhcarrigan in our [contributor chat room](https://discord.gg/PRyKn3Vbay).
